@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Roboto Slab', serif;
+    background-color: #121212;
+    color: #baa9df;
+}
+
+header {
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.2em;
+    color: #baa9df;
+}
+
+.cabecalho {
+    background-color: #1e1e1e;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    text-align: center;
+}
+
+.logo h1 {
+    margin: 5px 0;
+}
+
+.menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 20px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #c18aff;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.menu a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+main {
+    padding: 40px 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.conteudo {
+    max-width: 1600px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    text-align: start;
+}
+
+.titulo {
+    width: 100%;
+    text-align: center;
+    color: #c18aff;
+    margin-bottom: 30px;
+}
+
+.texto {
+    background-color: #1f1b24;
+    padding: 20px;
+    border-radius: 15px;
+    width: 350px;
+    box-shadow: 0 4px 12px rgba(193, 138, 255, 0.1);
+    transition: transform 0.2s ease, box-shadow 0.3s ease;
+}
+
+.texto:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 20px rgba(193, 138, 255, 0.3);
+}
+
+.texto h2 {
+    color: #c18aff;
+    margin-top: 0;
+}
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%; 
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+iframe {
+    max-width: 100%;
+    border-radius: 12px;
+    box-shadow: #c18aff 0px 4px 12px rgba(193, 138, 255, 0.2);
+}
+
+footer.rodapé {
+    background-color: #1e1e1e;
+    color: #a8a8a8;
+    text-align: center;
+    padding: 20px;
+    font-size: 0.9em;
+}
+
+
+
