@@ -99,6 +99,33 @@ main {
     margin: 0 auto;
 }
 
+.linkTinkercad {
+    display: inline-block;
+    color: #c18aff;
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s, transform 0.2s;
+    text-align: center;
+}
+
+.linkTinkercad:hover {
+    color: #ffffff;
+    transform: scale(1.05);
+}
+
+.conteudo-video {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #1f1b24;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(193, 138, 255, 0.1);
+    text-align: center;
+}
+
 iframe {
     max-width: 100%;
     border-radius: 12px;
